@@ -11,8 +11,7 @@ export default function Topbar() {
             <div className="topbarWrapper">
                 <div className="topbar-left">
                     <div className="logo-sec">
-                       <img src="/images/logo.jpg" />
-                    </div>
+                      Nini                    </div>
                 </div>
                 <div className="topbar-right">
                
