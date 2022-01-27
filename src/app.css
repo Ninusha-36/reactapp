@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    margin-top: 45px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Notice {
+    background: #fbe4e4;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #910000;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none !important;
+}

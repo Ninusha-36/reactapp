@@ -1,0 +1,95 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .featuredItem {
+    flex: 1;
+    margin: 0px 20px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 8px -2px rgb(0 0 0 / 25%);
+    box-shadow: 0px 0px 8px -2px rgb(0 0 0 / 25%);
+    padding-left: 100px;
+    position: relative;
+  }
+  .featured:hover .featuredItem {
+    -webkit-box-shadow: 0px 0px 5px -2px rgb(0 0 0 / 25%);
+    box-shadow: 0px 0px 5px -2px rgb(0 0 0 / 25%);
+  }
+  .home .featured .featuredItem:hover {
+    -webkit-box-shadow: 0px 0px 29px -5px rgb(0 0 0 / 25%);
+    box-shadow: 0px 0px 29px -5px rgb(0 0 0 / 25%);
+  }
+  
+  .featuredTitle{
+      font-size: 20px;
+  }
+  
+  .featuredMoneyContainer{
+      margin: 10px 0px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .featuredMoney{
+      font-size: 30px;
+      font-weight: 600;
+  }
+  
+  .featuredMoneyRate{
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+  }
+  
+  .featuredIcon{
+      font-size: 14px;
+      margin-left: 5px;
+      color: green;
+  }
+  
+  .featuredIcon.negative{
+      color: red;
+  }
+  
+  .featuredSub{
+      font-size: 15px;
+      color: gray;
+  }
+  .featureIcon {
+    position: absolute;
+    left: 20px;
+    top: calc(50% - 30px);
+    width: 30px;
+    height: 30px;    
+    padding: 15px;
+    border-radius: 50px; 
+    transition: 0.5s;   
+}
+.icon-1{
+    background: #eee1fd;
+    color: #a65efe;
+} 
+.featuredItem:hover .icon-1{
+    background: #e0c6ff;
+}
+
+.icon-2{
+    background: #ddfeff;
+    color: #5ac7cc;
+} 
+.featuredItem:hover .icon-2{
+    background: #c6fdff;
+}
+
+.icon-3{
+    background: #dcffee;
+    color: #5cc894;
+} 
+.featuredItem:hover .icon-3{
+    background: #baffdd;
+}
