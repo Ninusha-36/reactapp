@@ -1,7 +1,8 @@
 import React from 'react'
 import './sidebar.css'
-import { HomeWorkRounded, Group , AddShoppingCart , PersonAddAlt , ShoppingCartCheckout } from '@mui/icons-material';
+import { HomeWorkRounded, Group , AddShoppingCart , PersonAddAlt , ShoppingCartCheckout , DynamicFeed } from '@mui/icons-material';
 import {  Link } from "react-router-dom";
+
 
   
 
@@ -59,6 +60,28 @@ export default function Sidebar() {
               Create Product
               </Link>
             </li>
+
+            
+          </ul>
+        </div>
+        <div className="sidebarMenu">
+          <h3 className="sidebarTitle">Posts (API Handling)</h3>
+          <ul className="sidebarList">
+          
+
+            <li className="sidebarListItem">
+            <Link  to="/posts">
+              <DynamicFeed className="sidebarIcon" />
+              Post List
+              </Link>
+            </li>
+            <li className="sidebarListItem">
+            <Link  to="/postform">
+              <DynamicFeed className="sidebarIcon" />
+              New Post 
+              </Link>
+            </li>
+            
           </ul>
         </div>
       </div>

@@ -9,6 +9,8 @@ import NewUser from "./pages/newUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
+import PostList from "./pages/post/PostList";
+import PostForm from "./pages/post/PostForm";
 
 function App() {
   return (
@@ -30,7 +32,12 @@ function App() {
 
          <Route path="newproduct" element={<NewProduct />} />
 
+         <Route path="posts" element={<PostList />} />
+
+         <Route path="postform" element={<PostForm />} />
+
         </Routes>
+
         </div>
       </Roter>
     </div>
