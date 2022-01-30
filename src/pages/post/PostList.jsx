@@ -28,7 +28,7 @@ export default class PostList extends Component {
     return <div className="postLit"> 
        
       <h2>Post List 123</h2>
-      <PostForm/> 
+      
       <p className="Notice">Note : API Link <a href='https://jsonplaceholder.typicode.com/posts' target="_blank">https://jsonplaceholder.typicode.com/posts</a> </p>
       {
         posts.map(posts => <div key={posts.id}><h3>{posts.title}</h3><p>{posts.body}</p></div>)
